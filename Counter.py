@@ -3,7 +3,7 @@ from tkinter import font
 from PIL import ImageTk, Image
 
 if __name__ == "__main__":
-    print(">> welcome to Counter app v1.0, developed by: Artin (Ketchup d) <<")
+    print(">> welcome to Counter app v1.0.1, developed by: Artin (Ketchup d) <<")
 
 
 def addfunc(a=1):
@@ -75,6 +75,7 @@ def themechanger():
 window = tk.Tk()
 
 window.title("Counter")
+window.resizable(False, False)
 
 icon = tk.PhotoImage(file="models//title_icon.png")
 window.iconphoto(False, icon)
